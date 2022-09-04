@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main-div{
+  background-color: #989FCE;
+  height: 100vh;
+  width: 100%;
+}
+.center-div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: aliceblue;
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.center-div h1{
+  background-color: #8D5A97;
+  color: aliceblue;
+  text-align: center;
+  font-size: 40px;
+}
+.center-div input{
+  width:200px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid #8566aa;
+  border-radius:.4rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: roboto;
+  background:transparent;
+  color: #8D5A97;
+  padding-left:10px;
+  margin-left: 20px;
+
+}
+
+input::placeholder{
+  font-size: 1.2rem;
+}
+button{
+  width:40px;
+	min-height:40px;
+		
+			border-radius:50%;
+	border:none;
+	background:#8D5A97;
+  font-size: 40px;
+	color:white;
+	margin-left: 10px;
+
+	cursor:pointer;
+
+	
+}
+button:hover{
+  background-color: green;
+}
+.center-div ol li{
+  list-style: none;
+   margin-top: 20px;
+  font-size: 1.3rem;
+  color: #8D5A97;
+}
+.todo-style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo-style .fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 19px 15px 0 35px;
+  color: aliceblue;
+  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.todo-style .fa-times:hover{
+  background-color: red;
+}
